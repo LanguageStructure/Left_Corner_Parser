@@ -1,0 +1,15 @@
+S -> adv S
+S -> NP VP
+NP -> the NP
+NP -> chris
+NP -> pen
+NP -> chalk
+NP -> computer
+NP -> NP and NP
+NP -> NP or NP
+V -> used
+VP -> V
+VP -> V NP
+VP -> VP PP
+NP -> NP PP
+PP -> P NP
