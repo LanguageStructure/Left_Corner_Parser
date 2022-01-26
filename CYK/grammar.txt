@@ -1,0 +1,22 @@
+S DP VP D NP PP P
+I saw her duck with a telescope
+
+S -> DP VP
+
+DP -> D NP
+VP -> VP PP
+VP -> VP DP
+NP -> NP PP
+DP -> DP VP
+PP -> P DP
+
+DP -> I
+DP -> her
+DP -> she
+NP -> duck
+NP -> telescope
+VP -> saw
+VP -> duck
+P -> with
+D -> a
+D -> her

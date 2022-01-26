@@ -1,0 +1,23 @@
+S NP VP PP A DET N V P
+time flies like an arrow
+
+S -> NP VP
+NP -> A NP
+NP -> NP PP
+NP -> DET N
+NP -> N
+VP -> V PP
+VP -> V NP
+VP -> V
+PP -> P
+PP -> P NP
+
+N -> time
+A -> time
+V -> time
+N -> flies
+V -> flies
+V -> like
+P -> like
+DET -> an
+N -> arrow
