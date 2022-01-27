@@ -12,7 +12,7 @@ public class Rule {
 		this.lhs = lhs;
 		this.rhs = rhs;
 	}
-	
+	           
 	public String toString(){
 		return lhs + " -> "+ Arrays.toString(rhs).replace("[", "").replace("]", "").replace(",", " ");
 	}
@@ -62,8 +62,8 @@ public class Rule {
 		if (!Arrays.equals(rhs, other.rhs))
 			return false;
 		return true;
-	}
-	
-	
-
+	} 
+	 
+	          
+  
 }
