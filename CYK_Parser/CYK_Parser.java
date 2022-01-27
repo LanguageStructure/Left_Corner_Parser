@@ -1,15 +1,15 @@
-/**
+/**           
  * Requires file with CNF grammar and all non terminals in first line and each
  * rule in new line!!!
- */
+ */     
 package CYK_Parser;
-
+    
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
+ 
 public class CYK_Parser {
 
     boolean[][][] table;
